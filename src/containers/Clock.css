@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Frank+Ruhl+Libre&display=swap');
+
+body{
+	background-color: #b54d4d;
+	text-align: center;
+	color:#fefefe;
+}
+
+h1{
+	font:900 70px 'Frank Ruhl Libre', serif;
+	margin: 50px 20px;
+}
+
+
+.change_control{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	gap:20px;
+	margin: 10px 20px;
+}
+
+.btn_change_time div{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+
+.btn_change_time div button, #start_stop, #reset{
+	background: transparent;
+	border:none;
+	color:#fefefe;
+	font-size: 40px;
+}
+
+
+.btn_change_time div span{
+	font:200 50px 'Frank Ruhl Libre', serif;
+	padding: 0 20px;
+}
+
+
+.btn_change_time>h3{
+	font:200 20px 'Frank Ruhl Libre', serif;
+}
+
+.timer-wrapper{
+	margin:50px auto;
+}
+
+#timer-label{
+	font:400 40px 'Frank Ruhl Libre', serif;
+}
+
+#time-left{
+	font:200 120px 'Frank Ruhl Libre', serif;
+}
+
+#start_stop, #reset{
+	margin: 0 20px;
+}
+
+button:disabled,
+button[disabled]{
+  display: none;
+}
+
+@media all and (max-width: 580px){
+	h1{
+		font-size: 50px;
+	}
+
+	.btn_change_time div button, .btn_change_time div span{
+		font-size: 30px;
+	}
+}
+
+
+
+
+
+
+
+
