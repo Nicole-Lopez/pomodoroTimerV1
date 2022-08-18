@@ -133,7 +133,7 @@ export default function Clock() {
 
     return (
         <div className="wrapper">
-            <h1>Pomodoro Clock</h1>
+            <h1>Pomodoro Timer</h1>
             <div className="change_control">
                 <BtnChangeTime
 					id={['session-label','session-decrement','session-increment', 'session-length']} 
